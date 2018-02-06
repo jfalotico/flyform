@@ -1,0 +1,48 @@
+// VARIABLES =============================
+// =======================================
+
+// BASE COLORS
+$white:                         #FFFFFF                         !default;
+$black:                         #2B2B2B                         !default;
+$grayDark:                      #3C3F41                         !default;
+$gray:                          #B6B6B6                         !default;
+$grayLight:                     #EFF1F3                         !default;
+
+$blue:                          #48ACF0                         !default;
+$red:                           #F4645F                         !default;
+$green:                         #83B692                         !default;
+$yellow:                        #FEC07A                         !default;
+
+
+// COLOR DECLARATIONS
+$color-background:              $grayDark;
+$color-background-content:      $black;
+
+$color-text-primary:            $white;
+$color-text-secondary:          $gray;
+$color-text-inverse-primary:    $black;
+$color-text-inverse-secondary:  $grayDark;
+$color-text-accent:             $blue;
+$color-text-link:               $blue;
+
+$color-state-success:           $green;
+$color-state-neutral:           $blue;
+$color-state-warning:           $yellow;
+$color-state-danger:            $red;
+$color-state-null:              $gray;
+
+$color-divider:                 mix($grayDark, $white, 90%);
+$color-divider-inverse:         $grayLight;
+
+$color-hover-overlay:           rgba($black, .3);
+$color-hover-overlay-inverse:   rgba($white, .3);
+$color-hover-link:              mix($black, $color-text-link, 30%);
+$color-hover-link-inverse:      mix($white, $color-text-link, 40%);
+
+
+// FONT DECLARATIONS
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+$font-body:                     'Roboto', sans-serif            !default;
+$font-body-size:                15px                            !default;
+$font-body-weight:              300                             !default;
+$font-icon:                     'icomoon'                       !default;
